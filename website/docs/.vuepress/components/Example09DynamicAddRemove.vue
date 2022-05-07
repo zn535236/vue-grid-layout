@@ -14,6 +14,7 @@
         <grid-layout :layout.sync="layout"
                      :col-num="colNum"
                      :row-height="30"
+                     :max-rows="7"
                      :is-draggable="draggable"
                      :is-resizable="resizable"
                      :vertical-compact="true"
